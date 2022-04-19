@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/build.css">
+</head>
+<body>
+
+<main class="weatherApp">
+    <section class="weatherApp-section">
+        <div class="weatherApp-section__container">
+            <div class="weatherApp-section__content">
+                <h1 class="weatherApp-section__title">Weather App</h1>
+
+                <div class="weatherApp-form">
+                    <div class="weatherApp-form__row">
+                        <div class="weatherApp-form__column">
+                            <label for="city" class="weatherApp-form__label">Enter city</label>
+                            <input type="text" name="city" id="city" class="weatherApp-form__input" placeholder="Enter city">
+                        </div>
+                        <div class="weatherApp-form__column">
+                            <button type="button" class="weatherApp-form__btn" id="js-search">Search</button>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="weatherApp-list">
+                <li class="weatherApp-item">
+                    <span class="weatherApp-item__name">1</span>
+                    <span class="weatherApp-item__min"></span>
+                    <span class="weatherApp-item__max"></span>
+                    <span class="weatherApp-item__icon"></span>
+                    <span class="weatherApp-item__description"></span>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="js/frontend.js"></script>
+</body>
+</html>
